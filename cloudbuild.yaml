@@ -12,7 +12,7 @@ steps:
     - 'gcr.io/$PROJECT_ID/docker-compose:${_DOCKER_COMPOSE_VERSION}'
     - '.'
   - name: 'gcr.io/$PROJECT_ID/docker-compose'
-      args: ['version']
+    args: ['version']
 
     images:
     - 'gcr.io/$PROJECT_ID/docker-compose:latest'
